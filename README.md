@@ -19,10 +19,6 @@ A two-stage deep learning pipeline for automated dental analysis from panoramic 
 ├── best models/
 │   ├── best.pt                       # YOLOv8s Stage 1 weights
 │   └── stage2_efficientnetb3_best.keras  # EfficientNetB3 Stage 2 weights
-├── training_data/
-│   ├── quadrant/                     # Stage 1 COCO-format annotations
-│   ├── quadrant_enumeration/         # Stage 2 enumeration annotations
-│   └── quadrant-enumeration-disease/ # Stage 2 disease annotations
 └── docs/
     └── Project Report.pdf
 ```
@@ -36,11 +32,7 @@ A two-stage deep learning pipeline for automated dental analysis from panoramic 
 
 ## Usage
 
-Open and run `src/Code_dental_detection.ipynb` end-to-end. Update `BASE_DIR` in the configuration cell to point to your local project root before running.
-
-## Dataset
-
-Annotations follow the COCO JSON format. Three annotation levels are provided: quadrant only, quadrant + enumeration, and quadrant + enumeration + disease.
+Please Open and run `src/Code_dental_detection.ipynb` end to end. Update `BASE_DIR` in the configuration cell to point to the local project root before running and the best weights path too. 
 
 ## Notes
 
