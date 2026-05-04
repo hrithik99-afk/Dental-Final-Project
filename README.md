@@ -20,7 +20,7 @@ A two-stage deep learning pipeline for automated dental analysis from panoramic 
 │   ├── best.pt                       # YOLOv8s Stage 1 weights
 │   └── stage2_efficientnetb3_best.keras  # EfficientNetB3 Stage 2 weights
 └── docs/
-    └── Project Final Report.pdf
+    └── Final Report.pdf
 ```
 
 ## Requirements
